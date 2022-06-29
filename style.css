@@ -83,7 +83,7 @@ main {
 }
 .top-container {
 	display: flex;
-	background-image: url("bg-hero-desktop.png");
+	background-image: url("bg-hero-desktop.svg");
 	flex-wrap: wrap;
 	padding: 5em;
 	padding-top: 3em;
@@ -215,7 +215,8 @@ p {
 	width: 33.3%;
 	padding: 3em;
 }
-.info-1, .info-2 {
+.info-1,
+.info-2 {
 	padding: 2em;
 	padding-top: 0em;
 }
@@ -224,4 +225,28 @@ p {
 }
 .sub-top p {
 	color: hsl(192, 100%, 9%);
+}
+#last {
+	margin-top: 4em;
+	display: flex;
+	flex-wrap: wrap;
+	width: 33.3%;
+	padding-bottom: 0em;
+}
+.socials {
+	display: flex;
+	flex-wrap: nowrap;
+}
+.socials svg {
+	width: 80%;
+}
+.soc {
+	width: 10%;
+	padding-left: 0.5em;
+}
+#last p {
+	padding-bottom: 0px;
+	display: flex;
+	align-items: flex-end;
+	font-size: small;
 }
