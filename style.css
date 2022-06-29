@@ -1,6 +1,6 @@
 @media screen and (max-width: 375px) {
 	.top-container {
-		background-image: url("bg-hero-mobile.svg");
+		background-image: url("resources/bg-hero-mobile.svg");
 	}
 	.a {
 		display: flex;
@@ -70,7 +70,7 @@ main {
 	width: 50%;
 	margin: auto;
 	margin-bottom: -80px;
-	background-image: url("b.png");
+	background-image: url("resources/b.png");
 	position: relative;
 }
 .bottom-container {
@@ -83,7 +83,7 @@ main {
 }
 .top-container {
 	display: flex;
-	background-image: url("bg-hero-desktop.svg");
+	background-image: url("resources/bg-hero-desktop.svg");
 	flex-wrap: wrap;
 	padding: 5em;
 	padding-top: 3em;
