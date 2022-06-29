@@ -20,14 +20,16 @@
 }
 
 body {
-	font-family: 'Open Sans';
+	font-family: "Open Sans";
 	font-weight: 400;
 }
 main {
-	padding: 5em;
+	padding: 6em;
 }
 .sub-top {
 	display: flex;
+	justify-content: space-between;
+	margin-top: 75px;
 }
 .a {
 	display: flex;
@@ -37,7 +39,7 @@ main {
 	box-shadow: 0px 0px 10px 10px rgba(251, 251, 251, 1);
 	margin-top: 3em;
 	margin-bottom: 3em;
-	padding: 3em;
+	padding: 4em;
 }
 .b {
 	display: flex;
@@ -47,7 +49,7 @@ main {
 	box-shadow: 0px 0px 10px 10px rgba(251, 251, 251, 1);
 	margin-top: 3em;
 	margin-bottom: 3em;
-	padding: 3em;
+	padding: 5em;
 }
 .c {
 	display: flex;
@@ -57,19 +59,34 @@ main {
 	box-shadow: 0px 0px 10px 10px rgba(251, 251, 251, 1);
 	margin-top: 3em;
 	margin-bottom: 3em;
-	padding: 3em;
+	padding: 5em;
 }
 .b-container {
 	text-align: center;
+	border-radius: 15px;
+	box-shadow: 0px 0px 3px 3px rgba(251, 251, 251, 1);
+	margin-top: 3em;
+	padding: 3em;
+	width: 50%;
+	margin: auto;
+	margin-bottom: -80px;
+	background-image: url("b.png");
+	position: relative;
 }
 .bottom-container {
 	display: flex;
+	background-color: hsl(192, 100%, 9%);
+	margin-top: -50px;
+	overflow: hidden;
+	padding: 7em;
+	padding-top: 12em;
 }
 .top-container {
 	display: flex;
 	background-image: url("bg-hero-desktop.png");
 	flex-wrap: wrap;
-	padding: 3em;
+	padding: 5em;
+	padding-top: 3em;
 	background-color: hsl(193, 100%, 96%);
 }
 .top-top {
@@ -82,14 +99,13 @@ main {
 	width: 40%;
 }
 .sub-top .mockups {
+	display: flex;
 	width: 60%;
+	flex-direction: row-reverse;
 }
 .mockups img {
-	max-width: 85%;
+	max-width: 95%;
 	height: auto;
-}
-.mockups {
-	padding-left: 3em;
 }
 .top-top img {
 	max-width: 25%;
@@ -109,42 +125,68 @@ main {
 }
 .text {
 	width: 100%;
-	padding: 3em;
+	padding: 3.5em;
 	align-content: center;
+}
+.sub-top .text {
+	padding-left: 0em;
+}
+.sub-top h1 {
+	font-size: 40px;
 }
 .photo {
 	display: flex;
 	width: 100%;
-	align-items: center;
+	justify-content: flex-end;
 	padding-left: 4em;
 }
+.b .photo {
+	justify-content: center;
+}
 h1 {
-	font-family: 'Poppins';
+	font-family: "Poppins";
 	font-weight: 600;
 }
 p {
-	font-family: 'Open Sans';
+	font-family: "Open Sans";
 	font-weight: 400;
+	color: hsl(208, 11%, 55%);
+	font-size: 18px;
 }
 .b-container button {
-	font-family: 'Open Sans';
+	font-family: "Open Sans";
 	font-weight: 700;
 	background-color: hsl(322, 100%, 66%);
-	border-radius: 25px;
-	padding: 2em;
+	border-radius: 50px;
+	padding: 1.5em;
+	border-color: transparent;
+	color: aliceblue;
+	font-size: 18px;
+	padding-left: 7em;
+	padding-right: 7em;
 }
 .try button {
-	font-family: 'Open Sans';
+	font-family: "Open Sans";
 	font-weight: 700;
 	border-radius: 25px;
-	padding: 2em;
+	border-color: transparent;
+	background-color: rgba(255, 255, 255, 1);
+	box-shadow: 0px 0px 10px 5px rgba(226, 236, 238, 1);
+	padding: 5em;
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
 .sub-top button {
-	font-family: 'Open Sans';
+	font-family: "Open Sans";
 	font-weight: 700;
 	background-color: hsl(322, 100%, 66%);
-	border-radius: 25px;
-	padding: 2em;
+	border-color: transparent;
+	color: aliceblue;
+	border-radius: 35px;
+	padding: 6em;
+	padding-top: 1.25em;
+	padding-bottom: 1.25em;
+	margin-top: 1.5em;
 }
 .try {
 	display: flex;
@@ -153,4 +195,33 @@ p {
 }
 .logo {
 	width: 100%;
+}
+.p1,
+.p2,
+.p3 {
+	color: hsl(193, 100%, 96%);
+	display: flex;
+	margin-top: 25px;
+}
+.p {
+	margin-left: 1.5em;
+}
+.contact {
+	width: 33.3%;
+}
+.info {
+	display: flex;
+	justify-content: space-between;
+	width: 33.3%;
+	padding: 3em;
+}
+.info-1, .info-2 {
+	padding: 2em;
+	padding-top: 0em;
+}
+.info p {
+	color: hsl(193, 100%, 96%);
+}
+.sub-top p {
+	color: hsl(192, 100%, 9%);
 }
