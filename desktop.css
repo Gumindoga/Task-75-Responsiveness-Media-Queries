@@ -137,9 +137,10 @@ p {
 	font-family: "Open Sans";
 	font-weight: 700;
 	background-color: hsl(322, 100%, 66%);
+	border-color: transparent;
+	box-shadow: 0px 0px 10px 10px rgba(251, 251, 251, 1);
 	border-radius: 50px;
 	padding: 1.5em;
-	border-color: transparent;
 	color: aliceblue;
 	font-size: 18px;
 	padding-left: 7em;
@@ -161,6 +162,7 @@ p {
 	font-weight: 700;
 	background-color: hsl(322, 100%, 66%);
 	border-color: transparent;
+	box-shadow: 0px 0px 10px 10px rgba(226, 236, 238, 1);
 	color: aliceblue;
 	border-radius: 35px;
 	padding: 6em;
@@ -229,4 +231,19 @@ p {
 	display: flex;
 	align-items: flex-end;
 	font-size: 15px;
+	color: hsl(193, 100%, 96%);
+}
+.b-container button:hover, .sub-top button:hover {
+	cursor: pointer;
+	background-color: rgba(255, 155, 219, 1);
+}
+h2 {
+	font-size: 30px;
+}
+h3 {
+	font-size: 30px;
+}
+.try button:hover {
+	cursor: pointer;
+	color: hsl(208, 11%, 55%);
 }
