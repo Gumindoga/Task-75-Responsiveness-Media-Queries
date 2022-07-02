@@ -261,4 +261,7 @@ button:hover {
 .try button:hover {
 	color: hsl(208, 11%, 55%);
 }
-
+.socials svg:hover path {
+	cursor: pointer;
+	fill: hsl(322, 100%, 66%);
+}
