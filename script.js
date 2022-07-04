@@ -1,0 +1,1 @@
+alert("View repository at https://github.com/Gumindoga/Task-75-Responsiveness-Media-Queries");
